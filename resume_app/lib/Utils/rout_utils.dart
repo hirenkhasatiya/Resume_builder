@@ -6,64 +6,64 @@ class Myroutes {
 
   static String splashScreen = 'splash_screen';
 
-  static String Iconpath = 'asset/Icons/';
+  static String iconPath = 'asset/Icons/';
 
   static List<Map<String, dynamic>> buildOptions = [
 
       {
         'name': 'contact_info',
         'title': 'Contact Info',
-        'icon': "${Iconpath}contact_detail.png",
+        'icon': "${iconPath}contact_detail.png",
       },
       {
         'name': 'carrier_objective',
         'title': 'Carrier Objective',
-        'icon': "${Iconpath}briefcase.png",
+        'icon': "${iconPath}briefcase.png",
       },
       {
         'name': 'personal_detail',
         'title': 'Personal Detail',
-        'icon': "${Iconpath}account.png",
+        'icon': "${iconPath}account.png",
       },
       {
         'name': 'education',
         'title': 'Education',
-        'icon': "${Iconpath}graduation-cap.png",
+        'icon': "${iconPath}graduation-cap.png",
       },
       {
         'name': 'experience',
         'title': 'Experience',
-        'icon': "${Iconpath}logical-thinking.png",
+        'icon': "${iconPath}logical-thinking.png",
       },
       {
         'name': 'technical_skill',
         'title': 'Technical Skill',
-        'icon': "${Iconpath}certificate.png",
+        'icon': "${iconPath}certificate.png",
       },
       {
         'name': 'interest/hobbies',
         'title': 'Interest/Hobbies',
-        'icon': "${Iconpath}open-book.png",
+        'icon': "${iconPath}open-book.png",
       },
       {
         'name': 'projects',
         'title': 'Projects',
-        'icon': "${Iconpath}project-management.png",
+        'icon': "${iconPath}project-management.png",
       },
       {
         'name': 'achievements',
         'title': 'Achievements',
-        'icon': "${Iconpath}experience.png",
+        'icon': "${iconPath}experience.png",
       },
       {
         'name': 'references',
         'title': 'References',
-        'icon': "${Iconpath}handshake.png",
+        'icon': "${iconPath}handshake.png",
       },
       {
         'name': 'declaration',
         'title': 'Declaration',
-        'icon': "${Iconpath}declaration.png",
+        'icon': "${iconPath}declaration.png",
       },
   ];
 }

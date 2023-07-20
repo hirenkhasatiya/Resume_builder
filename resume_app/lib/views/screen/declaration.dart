@@ -19,6 +19,10 @@ class _ContactInfoState extends State<Declaration> {
             backgroundColor: Colors.black,
             foregroundColor: Colors.white,
           ),
+      body: Padding(
+        padding: EdgeInsets.all(20),
+
+      ),
         );
     }
 }

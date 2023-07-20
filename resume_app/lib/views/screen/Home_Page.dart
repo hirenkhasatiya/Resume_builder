@@ -18,6 +18,27 @@ class _HomePageState extends State<HomePage> {
           title: const Text("Home page"),
           centerTitle: true,
         ),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Center(
+              child: Icon(
+                Icons.edit_document,
+                size: 100,
+              ),
+            ),
+            Center(
+              child: Text(
+                "No Resume + Create New Resume",
+                style: TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black38,
+                ),
+              ),
+            ),
+          ],
+        ),
         floatingActionButton: FloatingActionButton(
             onPressed: () =>
                 Navigator.of(context).pushNamed(Myroutes.resumeWorkspace),
